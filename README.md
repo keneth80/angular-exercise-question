@@ -123,11 +123,11 @@ Run `npm install -g @angular/cli`
 
 ## User Component create command
 
-Run `ng g component common/components/{componentName}`
+Run `ng generate component common/components/{componentName}`
 
 ## User Page Module create command
 
-Run `ng g module pages/{pageName} --routing=true && ng g component pages/{pageName} -m={pageName}`
+Run `ng generate module pages/{pageName} --routing=true && ng generate component pages/{pageName} -m={pageName}`
 
 ## Install Angular Material (Optional)
 
