@@ -16,7 +16,7 @@ export function getConfiguration(globalService: GlobalVariableService): any {
     providers: [
         GlobalVariableService,
         // app이 시작 될 때 해당 함수를 호출한다. 단 return은 Promise 타입이어야 함.
-        { provide: APP_INITIALIZER, useFactory: getConfiguration, deps: [GlobalVariableService], multi: true },
+        // { provide: APP_INITIALIZER, useFactory: getConfiguration, deps: [GlobalVariableService], multi: true },
     ]
 })
 export class ServicesModule { }

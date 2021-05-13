@@ -112,6 +112,9 @@ Q. 구글에서 개발한 frontend framework인 angular로 web application을 �
 - /dialogs
 - /pages (routing 되는 page module 폴더)
 
+## angular cli global install
+
+Run `npm install -g @angular/cli`
 
 ## User Component create command
 

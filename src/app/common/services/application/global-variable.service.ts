@@ -20,6 +20,8 @@ export class GlobalVariableService {
     getConfiguration(): Promise<any> {
         return new Promise((resolve, reject) => {
             resolve([]);
+        }).then(() => {
+            return [];
         });
     }
 
